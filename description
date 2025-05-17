@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python autoencoder_gradio_app.py
 
 🚀 Live Gradio Demo
-https://82ca8e1ee9cd67fb6f.gradio.live/
+https://edae4fbc3abe13b817.gradio.live
 
 --LOCAL LINK
 http://127.0.0.1:7860/
