@@ -1,2 +1,32 @@
-# Autoencoder-Anomaly-Detection
-Detecting Outliers in Data Using Neural Network Compression and Reconstruction Error
+# Autoencoder-Anomaly-Detection 🚨
+
+This project is a simple Gradio app that uses an Autoencoder (a neural network) to detect anomalies in 2D input data.
+
+ 🔍 How It Works
+
+- **Input**: Two numeric values (X1, X2)
+- **Model**: Trained Autoencoder (unsupervised neural network)
+- **Output**: Label ("Normal" or "Anomaly")
+
+If the input doesn't match the learned pattern of normal data, it's flagged as an anomaly.
+
+ 🧪 Example Use Case
+
+You can use this for anomaly detection in simple sensor data, such as:
+- Quality control
+- Intrusion detection
+- Outlier filtering
+
+ 🖥️ Installation
+
+bash
+git clone https://github.com/mahaware-exe/Autoencoder-Anomaly-Detection.git
+cd Autoencoder-Anomaly-Detection
+pip install -r requirements.txt
+python autoencoder_gradio_app.py
+
+🚀 Live Gradio Demo
+https://82ca8e1ee9cd67fb6f.gradio.live/
+
+--LOCAL LINK
+http://127.0.0.1:7860/
